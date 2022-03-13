@@ -1,0 +1,80 @@
+
+#insta-logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    color: gray;
+}
+
+.modal-background {
+    background-color: rgb(117, 226, 117);
+    border-color: rgb(117, 226, 117)
+}
+
+.fa, .fa-th {
+    color: lightgray;
+}
+
+i {
+    color: gray !important;
+}
+
+#modal-button-style {
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 20%;
+    background-color: white;
+}
+
+.nav-link.active {
+    background-color: rgb(175, 172, 172) !important;
+}
+
+#dropdown-line {
+    border-bottom: 1px solid rgb(231, 225, 225);
+    padding-bottom: 13px;
+}
+
+#dropdown-logout {
+    padding-top: 13px;
+}
+
+.row, img {
+    /* object-fit: cover; */
+    /* width: 300px; */
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.card {
+    margin: 0 auto;
+    /* height: 600px; */
+    width:600px;
+    /* width: 18rem; */
+}
+
+.card img {
+    /* margin: 0 auto; */
+    height: 600px;
+    width:600px;
+    /* width: 18rem; */
+}
+.card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 8px 0;
+  /* padding: 20px 0; */
+}
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
