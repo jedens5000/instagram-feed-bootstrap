@@ -1,80 +1,98 @@
-
 #insta-logo {
-    font-family: 'Grand Hotel', cursive;
-    font-size: 30px;
-    color: gray;
+  font-family: "Grand Hotel", cursive;
+  font-size: 30px;
+  color: gray;
 }
 
 .modal-background {
-    background-color: rgb(117, 226, 117);
-    border-color: rgb(117, 226, 117)
-}
-
-.fa, .fa-th {
-    color: lightgray;
+  background-color: rgb(117, 226, 117);
+  border-color: rgb(117, 226, 117);
 }
 
 i {
-    color: gray !important;
+  color: gray !important;
 }
 
 #modal-button-style {
-    border: 1px solid rgb(231, 225, 225);
-    border-radius: 20%;
-    background-color: white;
+  border: 1px solid rgb(231, 225, 225);
+  border-radius: 20%;
+  background-color: white;
 }
 
 .nav-link.active {
-    background-color: rgb(175, 172, 172) !important;
+  background-color: rgb(175, 172, 172) !important;
 }
 
 #dropdown-line {
-    border-bottom: 1px solid rgb(231, 225, 225);
-    padding-bottom: 13px;
+  border-bottom: 1px solid rgb(231, 225, 225);
+  padding-bottom: 13px;
 }
 
 #dropdown-logout {
-    padding-top: 13px;
+  padding-top: 13px;
 }
 
 .row, img {
-    /* object-fit: cover; */
-    /* width: 300px; */
-    justify-content: center;
-    height: 400px;
-    text-align: center;
+  justify-content: center;
+  height: 400px;
+  text-align: center;
 }
 
 img {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
 }
 
 .card {
-    margin: 0 auto;
-    /* height: 600px; */
-    width:600px;
-    /* width: 18rem; */
+  margin: 0 auto 25px;
+  width: 620px;
 }
 
 .card img {
-    /* margin: 0 auto; */
-    height: 600px;
-    width:600px;
-    /* width: 18rem; */
+  height: 620px;
+  width: 620px;
 }
+
 .card-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 8px 8px 0;
-  /* padding: 20px 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 8px 0;
 }
-.card-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+h5+h5 {
+    color: gray;
 }
+
+.card-body {
+    padding-bottom: 0;
+    margin: auto auto auto 5;
+}
+
+p {
+    margin: auto auto 10px;
+}
+
+.card-footer-custom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  padding: 0;
+}
+
+.fa-heart-o {
+  text-align: right;
+  padding-right: 0;
+}
+
+#comment {
+  margin: 0;
+  text-align: left;
+  padding: 0 18px;
+}
+
+
